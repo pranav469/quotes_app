@@ -22,7 +22,7 @@ void main() {
     // After tapping, the quote text might change (not guaranteed every time due to randomness)
     final quoteAfter = find.byType(Text).evaluate().first.widget as Text;
 
-    expect(quoteAfter.data != null, true);
+    expect(quoteAfter.data != quoteBefore.data, true);
     expect(quoteAfter.data!.isNotEmpty, true);
   });
 }
