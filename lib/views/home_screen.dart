@@ -20,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     'Software development is a journey. Every bug fixed is a lesson learned',
     'Quality is not an act, it is a habit',
     'It’s harder to read code than to write it',
+    'Make it work, make it right, make it fast',
   ];
 
   void _pickTheQuote() {
