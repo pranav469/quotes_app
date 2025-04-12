@@ -9,6 +9,7 @@ class QuotePicker {
     'Software development is a journey. Every bug fixed is a lesson learned',
     'Quality is not an act, it is a habit',
     'It’s harder to read code than to write it',
+    'Hei'
   ];
 
   static String getRandomQuote() {
